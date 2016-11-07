@@ -1,0 +1,32 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "description": "A simple app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chitty/game.git"
+  },
+  "keywords": [],
+  "author": "Carlos Chitty",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-loader": "^1.6.1"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-resource": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "eslint": "^3.9.1",
+    "eslint-loader": "^1.6.1",
+    "hogan.js": "^3.0.2",
+    "json-loader": "^0.5.4",
+    "lodash": "^4.16.6",
+    "mustache-loader": "^0.4.0",
+    "webpack": "^1.13.3"
+  }
+}
