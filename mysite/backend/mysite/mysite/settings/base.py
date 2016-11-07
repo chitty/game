@@ -30,11 +30,13 @@ INSTALLED_APPS = [
 
 ROOT_URLCONF = 'mysite.urls' 
 
-STATIC_URL = '/static/'  
+STATIC_URL = '/static/'
+
 STATICFILES_FINDERS = [  
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 ]
+
 STATICFILES_DIRS = [  
     env('FRONTEND_ROOT')
 ]

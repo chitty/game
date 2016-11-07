@@ -10,7 +10,7 @@ module.exports = {
 
   // eslint config
   eslint: {
-    configFile: './config/eslint.json'
+    configFile: "./config/eslint.json"
   },
 
   module: {
@@ -26,6 +26,6 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['', '.js']
+    extensions: ["", ".js"]
   }
 };
