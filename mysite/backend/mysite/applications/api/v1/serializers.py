@@ -6,3 +6,4 @@ class GameSerializer(ModelSerializer):
 
     class Meta:
         model = Game
+        fields = '__all__'
