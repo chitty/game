@@ -1,17 +1,17 @@
 # NodeJS 4.4.7+
 curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
-sudo apt-get -qqy update
-sudo apt-get -qqy install nodejs
+apt-get -qqy update
+apt-get -qqy install nodejs
 # npm 2.15.8+
-sudo apt -qqy install npm
+apt-get -qqy install npm
 # Webpack 1.13.x
-sudo npm i -g webpack
+npm i -g webpack
 # ESLint 2.13.1+ 
-sudo npm i -g eslint
+npm i -g eslint
 # Python 2.x
-sudo apt -qqy install python
+apt-get -qqy install python
 # Pip 9.0+
-sudo apt -qqy install python-pip
+apt-get -qqy install python-pip
 pip install --upgrade pip
 # Virtualenv
 pip install virtualenv
